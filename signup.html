@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <!--Menu Bar Start-->
+    <div class="main-header">
+        <header class="header">
+            <div class="header-content">
+              
+                    <a href="#img"><img class="img-logo" src="images/logo.png" alt="logo" width="180px" height="auto"></a>
+          <nav class="navbar">
+              <a href="" class="nav-link">Annoucement</a>
+              <a href="" class="nav-link">About Us</a>
+              <a href="" class="nav-link">Contact Us</a>
+              <a href="index.html" class="nav-link">Home</a>
+              <a href="login.html"><button>Sign in</button></a>
+          </nav>
+          </div>
+        </header>
+    </div>
+     <!--Menu Bar End-->
+
+     <!--Sign Up Form Start-->
+     <div class="form-container">
+        <div class="form-wrapper">
+            <h1>Sign Up As</h1>
+            <div class="button">
+                <div class="circle-button">
+                    <input type="radio" id="jobseeker" name="user_type">
+                    <label for="jobseeker" class="option">Jobseeker</label>
+                    <div class="checkmark"></div>
+                </div>
+                <div class="circle-button">
+                    <input type="radio" id="employer" name="user_type">
+                    <label for="employer" class="option">Employer</label>
+                    <div class="checkmark"></div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <form action="" method="post">
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname" required><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+            
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I agree to the Terms of Service</label><br><br>
+            
+            <input type="submit" value="Sign Up">
+          </form>
+     </div>
+      <!--Sign Up Form End-->
+</body>
+</html>
